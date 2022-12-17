@@ -22,8 +22,13 @@ $("input[type='submit']").click();
 ## Automatic method (extension):
 - Install Tampermonkey extension [here](https://www.tampermonkey.net/) (note that any userscript extension is supported).
 - Install the script from [here](https://raw.githubusercontent.com/mostafa-abdelbrr/auto-skip-cufe-chs-staff-evaluation/master/AutoEvaluate.user.js).
-- Sign in normally from here: https://std.eng.cu.edu.eg 
-- IMPORTANT: open your evaluation from here: 
-https://std.eng.cu.edu.eg/SIS/Modules/MetaLoader.aspx?path=~/SIS/Modules/Student/Survey/Survey.ascx
+- Sign in normally from one of the following:
+  - https://std.eng.cu.edu.eg
+  <br>OR<br>
+  - https://chreg.eng.cu.edu.eg
+- IMPORTANT: open your evaluation from here, choose std or chreg based on the one you chose in the previous step: 
+  - https://std.eng.cu.edu.eg/SIS/Modules/MetaLoader.aspx?path=~/SIS/Modules/Student/Survey/Survey.ascx
+<br>OR<br>
+  - https://chreg.eng.cu.edu.eg/SIS/Modules/MetaLoader.aspx?path=~/SIS/Modules/Student/Survey/Survey.ascx
 - Nothing more to do, it should do it automatically, hopefully.
 - You don't need reinstall every semester unless you uninstall the extension.
