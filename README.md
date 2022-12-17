@@ -15,7 +15,7 @@ $("input[type='submit']").click();
 
 
 ## Automatic method (extension):
-- [Install Tampermonkey extension](https://www.tampermonkey.net/)
+- Install Tampermonkey extension [here](https://www.tampermonkey.net/).
 - Install the script from [here](https://raw.githubusercontent.com/mostafa-abdelbrr/auto-skip-cufe-chs-staff-evaluation/master/AutoEvaluate.user.js).
 - Sign in normally from here: https://std.eng.cu.edu.eg 
 - IMPORTANT: open your evaluation from here: 
