@@ -2,6 +2,13 @@
 Two ways:
 - Manually.
 - Extension.
+## Editing default score:
+Edit it in the manual method or from the script in Tampermonkey.
+```javascript
+value='6'
+```
+Change `6` to whichever value you want, I think score 1 is 0? Find out from the inspect element. 6 means "Can not answer" which makes the system skip your evaluation while calculating the staff's score, but it won't lock your account. This is my hypothesis, but I did it for 3 semesters at least and my account wasn't locked, thankfully.
+
 ## Manual method:
 - Open evaluation after signing in.
 - Open browser console (F12 then go to console tab).
@@ -11,8 +18,6 @@ Two ways:
 $("td").children("input[value='6']").prop("checked", true);
 $("input[type='submit']").click();
 ```
-- Score Change:
-
 
 ## Automatic method (extension):
 - Install Tampermonkey extension [here](https://www.tampermonkey.net/).
