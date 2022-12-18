@@ -15,8 +15,13 @@ Change `6` to whichever value you want, I think score 1 is 0? Find out from the 
 - Paste the following script then run. To run in Chrome: just paste and click on enter button. Firefox: there is a `run` button, click on it. The script will auto go to the next page, then you need to again and repeat this step until the evaluation is over.
 - Script:
 ```javascript
-$("td").children("input[value='6']").prop("checked", true);
-$("input[type='submit']").click();
+var jqry = document.createElement('script');
+jqry.src = "https://code.jquery.com/jquery-3.3.1.min.js";
+document.getElementsByTagName('head')[0].appendChild(jqry);
+setTimeout( () => {
+    $("td").children("input[value='6']").prop("checked", true);
+    $("input[type='submit']").click()
+}, 1000);
 ```
 
 ## Automatic method (extension):

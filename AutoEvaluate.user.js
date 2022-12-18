@@ -14,8 +14,11 @@
 
 (function() {
     'use strict';
+    var jqry = document.createElement('script');
+    jqry.src = "https://code.jquery.com/jquery-3.3.1.min.js";
+    document.getElementsByTagName('head')[0].appendChild(jqry);
     setTimeout( () => {
     $("td").children("input[value='6']").prop("checked", true);
     $("input[type='submit']").click()
-        }, 500);  //500-millisec delay
+        }, 1000);  //1 second delay
 })();
