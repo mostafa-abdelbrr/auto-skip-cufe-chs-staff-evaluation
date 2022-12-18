@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto evaluate
 // @namespace    http://tampermonkey.net/
-// @version      4
+// @version      5
 // @description  ِAuto evaluate with "Can not answer".
 // @author       Titan
 // @match        https://std.eng.cu.edu.eg/SIS/Modules/MetaLoader.aspx?path=~/SIS/Modules/Student/Survey/Survey.ascx
